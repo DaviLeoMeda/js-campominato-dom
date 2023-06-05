@@ -1,0 +1,57 @@
+:root {
+    --backGeneral: rgb(32, 167, 32);
+    --numbBoxes: 10;
+}
+
+.playableBox {
+    background-color: rgb(186, 134, 235);
+}
+
+.containerTot {
+    height: 90vh;
+    background-color: aquamarine;
+}
+
+.box {
+    border: 1px solid black;
+    width: calc(100% / var(--numbBoxes));
+    height: calc(100% / var(--numbBoxes));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.blue {
+    background-color: rgb(60, 69, 190);
+}
+
+.red {
+    background-color: red;
+}
+
+.mainHead,
+.mainFoot {
+    height: 5vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.griglia {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.covering {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
